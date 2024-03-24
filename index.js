@@ -4,7 +4,7 @@ const { Client, MessageMedia } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 
 const app = express();
-const port = 3000;
+const port = 80;
 
 const client = new Client();
 let ready = false;
